@@ -243,6 +243,7 @@
           .habilidade{
               width: 100%;
               margin-top: 100px;
+              margin-bottom: 80px;
               position: absolute;
               top: 50%;
               transform:translateY(785%);
@@ -274,7 +275,72 @@
               margin-left: 30px;
           }
 
-        </style> <!-- aCABOU O css -->
+          @media screen and (max-width: 768px){
+
+            .sidebar{
+                width: 30%;
+            }
+
+            section.descricao{
+                margin-left: 15%;
+            }
+
+            .descricao .educacao .educacao-middle .etec{
+              width: 100%;
+              float: left;
+            }
+
+            .descricao .educacao .educacao-middle .ufsm{
+                width: 100%;
+                float: left;
+                margin-left: -8px;
+            }
+
+            .tecnologias{
+                transform:translateY(520%);
+            }
+
+            .tecnologias .tecnologias-bottom{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .tecnologias .tecnologias-bottom .web{
+              width: 100%;
+              float: left;
+            }
+
+            .tecnologias .tecnologias-bottom .web:last-of-type{
+              width: 100%;
+              float: left;
+              margin-left: 0;
+              margin-top: 10px;
+            }
+
+            .habilidade{
+                transform:translateY(700%);
+            }
+
+            .habilidade .habilidades-bottom{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .habilidade .habilidades-bottom .hab{
+                width: 100%;
+                float: left;
+            }
+
+            .habilidade .habilidades-bottom .hab:last-of-type{
+                width: 100%;
+                float: left;
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+          }/* Acaba responsivo */
+
+        </style> <!-- Acabou o CSS -->
     
     
     </head>
@@ -420,3 +486,4 @@
 
 
 
+          
